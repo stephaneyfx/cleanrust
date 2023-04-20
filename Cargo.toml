@@ -1,0 +1,16 @@
+[package]
+name = "cleanrust"
+version = "0.1.0"
+authors = ["Stephane Raux <stephaneyfx@gmail.com>"]
+edition = "2021"
+description = "Tool to clean Rust build artifacts"
+license = "0BSD"
+homepage = "https://github.com/stephaneyfx/cleanrust"
+repository = "https://github.com/stephaneyfx/cleanrust.git"
+documentation = "https://docs.rs/cleanrust"
+keywords = ["clean", "target", "build"]
+
+[dependencies]
+clap = { version = "4.2.3", features = ["derive"] }
+crossbeam = "0.8.2"
+indicatif = "0.17.3"
